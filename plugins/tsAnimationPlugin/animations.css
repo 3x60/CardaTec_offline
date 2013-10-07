@@ -1,0 +1,4 @@
+.position{position:absolute;}
+.slide_right{position:absolute;opacity:0;-webkit-transition-property: -webkit-transform, opacity;}
+.slide_left{position:absolute;opacity:0;-webkit-transition-property: -webkit-transform, opacity;}
+.fade_in{position:absolute;opacity:0;-webkit-transition-property: opacity;}

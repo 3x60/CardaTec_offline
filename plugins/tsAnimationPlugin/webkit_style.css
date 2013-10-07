@@ -1,0 +1,39 @@
+
+    
+ .ani_fade {  
+ 	-webkit-transition-delay: 0s;
+   -webkit-transition-property: opacity;  
+   -webkit-transition-duration: 1s;
+   opacity: 1;  
+  }
+  .ani_fadeOut {  
+   -webkit-transition-property: opacity;  
+   -webkit-transition-duration: 1s;
+   -webkit-transition-delay: 2s;
+   
+  }
+  .ani_slide {  
+   -webkit-transition-property:-webkit-transform;
+   -webkit-transition-duration: 1s;
+   
+   
+   
+  }
+
+
+
+body, html, iframe{
+	background:transparent;
+}
+
+.slide_right, .slide_left {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.webkitTransition {
+   -webkit-transition-property:-webkit-transform;
+  -webkit-transition-duration:1s;
+}
+
